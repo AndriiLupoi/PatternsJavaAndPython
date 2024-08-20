@@ -13,5 +13,6 @@ public class Main {
         System.out.println("Original Order: " + originalOrder);
         System.out.println("\n");
         System.out.println("Cloned Order: " + clonedOrder);
+        System.out.println("\n");
     }
 }

@@ -14,6 +14,6 @@ public class Client implements TickedBookingSystemPrototype {
 
     @Override
     public String toString() {
-        return "Client{" + "name='" + name + '\'' + ", number='" + number + '\'' + '}';
+        return "Client{" + "name='" + name + '\'' + ", number='" + number + '\'' + '}'+"\n";
     }
 }
