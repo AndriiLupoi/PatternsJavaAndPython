@@ -12,7 +12,7 @@ public class Main {
         Movie movie2 = new Movie("Titanic", "Drama", LocalDateTime.now().plusHours(6));
 
         Seat seat1 = new Seat(10,false);
-        Seat seat2 = new Seat(9,false);
+        Seat seat2 = new Seat(9,true);
 
         manager.addOrder(client1, movie1, seat1);
         manager.addOrder(client2, movie2, seat2);
