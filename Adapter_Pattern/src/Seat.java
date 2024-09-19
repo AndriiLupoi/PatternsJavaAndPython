@@ -1,4 +1,4 @@
-//public interface Seat {
-//    boolean isBooked();
-//    void setBooked(boolean booked);
-//}
+public interface Seat {
+    boolean isBooked();
+    void setBooked(boolean booked);
+}
